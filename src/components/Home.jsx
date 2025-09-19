@@ -61,7 +61,7 @@ const Home = () => {
 
     return (
         <div className={`flex flex-col items-center p-6 ${showCentered ? 'justify-center min-h-[70vh]' : ''}`}>
-            <div className={`flex items-center justify-center gap-2 ${showCentered ? '' : 'mt-4'}`}>
+            <div className={`flex items-center justify-center gap-2 w-full px-4 sm:px-0 ${showCentered ? '' : 'mt-4'}`}>
                 <input type='text'
                     value={ingredient}
                     onChange={e => setIngredient(e.target.value)}
